@@ -1,0 +1,60 @@
+#board {
+    
+    display: grid;
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(11,1fr);
+    height: 100%;
+    
+    // background-image: url(images/mountain_landscape-2560x1440.jpg);
+    //background-size:contain;
+    //background-position:center;
+    background-repeat:no-repeat;
+    box-shadow: 0 4px 4px 8px rgba(0, 0, 0, 0.19);
+    
+}
+
+#border{
+    padding-top: 50px;
+    height: 550px;
+    width: 45%;
+    margin: 0 auto;
+   
+}
+
+.btns{
+   
+    
+    border-style: dotted;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-width: thin;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    //background-color: transparent;
+    
+    
+    font-size: 0px;
+   
+}
+
+.coordinates{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-color: blue;
+    border-style:solid;
+    background-color: white;
+    text-align:center;
+    
+    
+    
+    
+}
+
+
+body{
+    background-color: black;
+  
+    
+}
